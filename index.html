@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/icon.ico" type="image/x-icon">
     <title>TG2 Labs</title>
     <link rel="stylesheet" href="./assets/style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
@@ -19,9 +20,9 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#start">Início</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
                 </ul>
             </div>
         </div>
@@ -30,6 +31,7 @@
     <!-- Header-->
 
     <header class="py-5">
+      <a id="start"></a>
         <div class="container px-5 pb-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-xxl-5">
@@ -39,8 +41,8 @@
                         <div class="fs-4 fw-light text-muted">Soluções criativas para você</div>
                         <h1 class="display-4 fw-bolder mb-5"><span class="text-gradient d-inline">Desenvolvimento de sites, fotografia e gestão de tráfego para <span class="text-one">pousadas</span>.</span></h1>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                            <a class="btn btn-secondary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Sobre</a>
-                            <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Contato</a>
+                            <a class="btn btn-secondary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#services">Serviços</a>
+                            <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="#contact">Contato</a>
                         </div>
                     </div>
                 </div>
@@ -49,7 +51,7 @@
                     <div class="d-flex justify-content-center mt-5 mt-xxl-0">
                         <div class="profile bg-gradient-primary-to-secondary">
 
-                            <img class="profile-img img-fluid rounded" src="assets/img/profile.jpg" alt="Pousada beira mar" />
+                            <img class="profile-img img-fluid rounded" src="assets/img/profile.jpg" alt="Pousada beira mar"  loading="lazy"/>
                             
                         </div>
                     </div>
@@ -67,11 +69,6 @@
                     <div class="text-center my-5">
                         <h2 class="display-4 fw-bolder"><span class="text-gradient d-inline">Impulsionando pousadas no <span class="text-one">digital!</span></span></h2>
                         <p class="lead mb-4 fs-4">O turismo é cheio de altos e baixos, através de estratégias certeiras é possível ter clientes o ano todo.</p>
-                        <div class="d-flex justify-content-center fs-2 gap-4 mt-5">
-                            <a class="text-dark" href="#!"><i class="bi bi-instagram"></i></a>
-                            <a class="text-dark" href="#!"><i class="bi bi-linkedin"></i></a>
-                            <a class="text-dark" href="#!"><i class="bi bi-github"></i></a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -116,12 +113,16 @@
 
 
         <p class="lead">Todos os dias milhares de pessoas procuram na internet onde passar aquele final de semana incrível com quem ama. Ter um site para apresentar sua pousada pode ser o diferencial para alavancar suas hospedagens.</p>
+        
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-success btn-lg px-4 me-md-2 mt-3">
-            Quero saber mais sobre os sites 
-            <i class="bi bi-whatsapp"></i>
-          </button>
+          <a href="https://api.whatsapp.com/send?phone=5548988294130&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20sites%3F" target="_blank">
+            <button type="button" class="btn btn-success btn-lg px-4 me-md-2 mt-3">
+              Quero saber mais sobre os sites 
+              <i class="bi bi-whatsapp"></i>
+            </button>
+          </a>
         </div>
+
       </div>
     </div>
     </section>
@@ -139,10 +140,12 @@
            <p class="lead">Lembre-se: a primeira impressão é a que fica. Boas fotos destacam seu empreendimento e atraem mais clientes.</p>
         
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-success btn-lg px-4 me-md-2 mt-3">
-              Vamos fazer umas fotos?
-              <i class="bi bi-whatsapp"></i>
-            </button>
+            <a href="https://api.whatsapp.com/send?phone=5548988294130&text=Ol%C3%A1%2C%20vamos%20fazer%20umas%20fotos%3F" target="_blank">
+              <button type="button" class="btn btn-success btn-lg px-4 me-md-2 mt-3">
+                Vamos fazer umas fotos?
+                <i class="bi bi-whatsapp"></i>
+              </button>
+            </a>
           </div>
       </div>
     </div>
@@ -154,7 +157,7 @@
       
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="./assets/img/pousada.jpg" class="d-block mx-lg-auto img-fluid" alt="Grid de imagens" width="700" height="500" loading="lazy">
+          <img src="./assets/img/ads.png" class="d-block mx-lg-auto img-fluid" alt="Grid de imagens" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
           <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Gestão de tráfego para expandir <span class="text-one">horizontes</span></h2>
@@ -163,24 +166,52 @@
              com tráfego pago nós conseguimos seguimentar seu público alvo e dessa maneira atingir mais clientes qualificados. </p>
         
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-success btn-lg px-4 me-md-2 mt-3">
-              Vamos fazer um teste
-              <i class="bi bi-whatsapp"></i>
-            </button>
+            <a href="https://api.whatsapp.com/send?phone=5548988294130&text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20gest%C3%A3o%20de%20tr%C3%A1fego%3F" target="_blank">
+              <button type="button" class="btn btn-success btn-lg px-4 me-md-2 mt-3">
+                Quero saber mais!
+                <i class="bi bi-whatsapp"></i>
+              </button>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
+    <a id="contact"></a>
+    <section class="bg-dark-subtle">
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="row  g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h3 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Entre em <span class="text-one">contato</span></h3>
+          <p class="col-lg-10">Whatsapp: (48) 9 8829-4130</p>
+          <p class="col-lg-10">Email: tchiqueti@gmail.com</p>   
+          <h3>ou clique no link:</h3> 
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="https://api.whatsapp.com/send?phone=5548988294130&text=Ol%C3%A1" target="_blank">
+              <button type="button" class="btn btn-success btn-lg px-4 me-md-2 mt-3">
+                Entre em contato
+                <i class="bi bi-whatsapp"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <h2>Atendimento em toda a grande florianópolis!</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d452477.86615717533!2d-49.248798497469004!3d-27.625032958054632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527395239a50a3d%3A0x3547b6c400b37329!2sRegi%C3%A3o%20Metropolitana%20de%20Florian%C3%B3polis%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1691415892994!5m2!1spt-BR!2sbr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
     </main>
 
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Início</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Serviços</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contato</a></li>
+        <li class="nav-item"><a href="#start" class="nav-link px-2 text-body-secondary">Início</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link px-2 text-body-secondary">Serviços</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link px-2 text-body-secondary">Contato</a></li>
       </ul>
-      <p class="text-center text-body-secondary">© 2023 Thiago Chiqueti</p>
+      <p class="text-center text-body-secondary">© 2021-2023 TG2 Labs | Desenvolvido por Thiago Chiqueti </p>
     </footer>
 
 
