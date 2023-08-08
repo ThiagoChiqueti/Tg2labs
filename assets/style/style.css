@@ -5,3 +5,50 @@
 .btn-one{
     background-color: #FF8F35;
 }
+
+#maps{
+    width: 500px;
+    height: 300px;
+}
+
+@media (max-width:1220px){
+    #maps{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media (max-width:1020px){
+    #maps{
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media (max-width:991px){
+    #maps{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media (max-width:528px){
+    #maps{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media (max-width:430px){
+    #maps{
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media (max-width:380px){
+    #maps{
+        width: 250px;
+        height: 150px;
+    }
+}
