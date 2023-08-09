@@ -1,3 +1,9 @@
+.img-shadow{
+    -webkit-box-shadow: 0px 33px 32px -17px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 33px 32px -17px rgba(0,0,0,0.21);
+    box-shadow: 0px 33px 32px -17px rgba(0,0,0,0.21);
+}
+
 .text-one{
     color: #FF8F35;
 }
